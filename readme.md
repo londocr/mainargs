@@ -322,6 +322,7 @@ Seq(false, true)
 
 Multiple short arguments can be combined into one `-ab` call:
 
+```scala
 $ ./mill example.short bools -ab true
 Seq(true, true)
 ```
